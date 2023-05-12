@@ -1,0 +1,41 @@
+.btn-signup {
+    width: 200px;
+    height: 55px;
+    background: #EB4D9A;
+    border: 2px solid #8B1E5F;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-subscribe {
+    width: 200px;
+    background: $color-card-back;
+    border: 2px solid $color-main;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        background: #EB4D9A;
+        border: 2px solid #8B1E5F;
+        color: #FFFFFF;
+    }
+}

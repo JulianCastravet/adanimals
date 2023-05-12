@@ -1,0 +1,110 @@
+.nope-hero-headline {
+    @media (min-width: 992px) {
+        transform: translateY(-80px);
+        .line-A {
+            position: relative;
+            height: 80px;
+            width: 100%;
+            span {
+                position: absolute;
+                top: 0px;
+                left: 50%;
+                width: 70px;
+                height: 800px;
+                text-align: center;
+                transform-origin: bottom center;
+                // border: solid 1px black;
+            }
+            .char1 {
+                transform: rotate(-18deg);
+            }
+            .char2 {
+                transform: rotate(-13deg);
+            }
+            .char3 {
+                transform: rotate(-10deg);
+            }
+            .char4 {
+                transform: rotate(-6deg);
+            }
+            .char5 {
+                transform: rotate(-2deg);
+            }
+            .char6 {
+                transform: rotate(2deg);
+            }
+            .char7 {
+                transform: rotate(6deg);
+            }
+            .char8 {
+                transform: rotate(10deg);
+            }
+            .char9 {
+                transform: rotate(14deg);
+            }
+            .char10 {
+                transform: rotate(18deg);
+            }
+        }
+        .line-B {
+            position: relative;
+            height: 80px;
+            width: 100%;
+            span {
+                position: absolute;
+                top: 0px;
+                left: 50%;
+                width: 70px;
+                height: 800px;
+                text-align: center;
+                transform-origin: bottom center;
+                // border: solid 1px black;
+            }
+            .char1 {
+                transform: rotate(-28deg);
+            }
+            .char2 {
+                transform: rotate(-24deg);
+            }
+            .char3 {
+                transform: rotate(-20deg);
+            }
+            .char4 {
+                transform: rotate(-16deg);
+            }
+            .char5 {
+                transform: rotate(-12deg);
+            }
+            .char6 {
+                transform: rotate(-8deg);
+            }
+            .char7 {
+                transform: rotate(-4deg);
+            }
+            .char8 {
+                transform: rotate(0deg);
+            }
+            .char9 {
+                transform: rotate(4deg);
+            }
+            .char10 {
+                transform: rotate(8deg);
+            }
+            .char11 {
+                transform: rotate(12deg);
+            }
+            .char12 {
+                transform: rotate(16deg);
+            }
+            .char13 {
+                transform: rotate(20deg);
+            }
+            .char14 {
+                transform: rotate(24deg);
+            }
+            .char15 {
+                transform: rotate(28deg);
+            }
+        }   
+    }
+}

@@ -1,0 +1,362 @@
+// === FadeIn Animation
+@keyframes fadein1 {
+    0% { opacity: 0; }
+    66% { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein1 {
+    0% { opacity: 0; }
+    66% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein1 {
+    0% { opacity: 0; }
+    66% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein1 {
+    0% { opacity: 0; }
+    66% { opacity: 1; }
+    100% { opacity: 1; }
+}
+// 
+@keyframes fadein2 {
+    0% { opacity: 0; }
+    75% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein2 {
+    0% { opacity: 0; }
+    75% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein2 {
+    0% { opacity: 0; }
+    75% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein2 {
+    0% { opacity: 0; }
+    75% { opacity: 0; }
+    100% { opacity: 1; }
+}
+// 
+@keyframes fadein3 {
+    0% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein3 {
+    0% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein3 {
+    0% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein3 {
+    0% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
+}
+// 
+@keyframes fadein4 {
+    0% { opacity: 0; }
+    83% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein4 {
+    0% { opacity: 0; }
+    83% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein4 {
+    0% { opacity: 0; }
+    83% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein4 {
+    0% { opacity: 0; }
+    83% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+// === Falling Animation
+@keyframes falling1 {
+    0% {
+        opacity: 0; 
+        top: 0px;
+        left: 10%;
+    }
+    3% {
+        opacity: 1;
+        top: 0px;
+        left: 10%;
+    }
+    // 45% {
+    //     opacity: 1;
+    //     top: 400px;
+    //     left: calc(10% - 50px);
+    // }
+    97% {
+        opacity: 1;
+        top: 800px;
+        left: calc(10% + 150px);
+    }
+    100% {
+        opacity: 0;
+        top: 800px;
+        left: calc(10% + 150px);
+    }
+}
+
+@keyframes falling2 {
+    0% {
+        opacity: 0; 
+        top: 20px;
+        left: 22%;
+    }
+    3% {
+        opacity: 1;
+        top: 20px;
+        left: 22%;
+    }
+    // 45% {
+    //     opacity: 1;
+    //     top: 400px;
+    //     left: calc(22% - 5px);
+    // }
+    97% {
+        opacity: 1;
+        top: 800px;
+        left: 32%;
+    }
+    100% {
+        opacity: 0;
+        top: 800px;
+        left: 32%;
+    }
+}
+
+@keyframes falling3 {
+    0% {
+        opacity: 0; 
+        top: 55px;
+        left: 17%;
+    }
+    3% {
+        opacity: 1;
+        top: 55px;
+        left: 17%;
+    }
+    // 45% {
+    //     opacity: 1;
+    //     top: 400px;
+    //     left: calc(17% - 10px);
+    // }
+    97% {
+        opacity: 1;
+        top: 800px;
+        left: calc(17% + 15px);
+    }
+    100% {
+        opacity: 0;
+        top: 800px;
+        left: calc(17% + 15px);
+    }
+}
+
+@keyframes falling4 {
+    0% {
+        opacity: 0; 
+        top: 65px;
+        left: 20%;
+    }
+    3% {
+        opacity: 1;
+        top: 65px;
+        left: 20%;
+    }
+    // 50% {
+    //     opacity: 1;
+    //     top: 400px;
+    //     left: 30%;
+    // }
+    97% {
+        opacity: 1;
+        top: 800px;
+        left: calc(50% - 0px);
+    }
+    100% {
+        opacity: 0;
+        top: 800px;
+        left: calc(50% - 0px);
+    }
+}
+
+@keyframes falling5 {
+    0% {
+        opacity: 0; 
+        top: 10px;
+        left: 70%;
+    }
+    3% {
+        opacity: 1;
+        top: 10px;
+        left: 70%;
+    }
+    // 45% {
+    //     opacity: 1;
+    //     top: 400px;
+    //     left: calc(70% - 50px);
+    // }
+    97% {
+        opacity: 1;
+        top: 800px;
+        left: calc(50% + 0px);
+    }
+    100% {
+        opacity: 0;
+        top: 800px;
+        left: calc(50% + 0px);
+    }
+}
+
+@keyframes falling6 {
+    0% {
+        opacity: 0; 
+        top: 0px;
+        left: 76%;
+    }
+    3% {
+        opacity: 1;
+        top: 0px;
+        left: 76%;
+    }
+    // 45% {
+    //     opacity: 1;
+    //     top: 400px;
+    //     left: calc(76% + 50px);
+    // }
+    97% {
+        opacity: 1;
+        top: 800px;
+        left: calc(76% + 5px);
+    }
+    100% {
+        opacity: 0;
+        top: 800px;
+        left: calc(76% + 5px);
+    }
+}
+
+@keyframes falling7 {
+    0% {
+        opacity: 0; 
+        top: 55px;
+        left: 73%;
+    }
+    3% {
+        opacity: 1;
+        top: 55px;
+        left: 73%;
+    }
+    // 45% {
+    //     opacity: 1;
+    //     top: 400px;
+    //     left: calc(60% - 50px);
+    // }
+    97% {
+        opacity: 1;
+        top: 720px;
+        left: calc(50% + 5px);
+    }
+    100% {
+        opacity: 0;
+        top: 720px;
+        left: calc(50% + 5px);
+    }
+}
+
+@keyframes falling8 {
+    0% {
+        opacity: 0; 
+        top: 55px;
+        left: 79%;
+    }
+    3% {
+        opacity: 1;
+        top: 55px;
+        left: 79%;
+    }
+    // 45% {
+    //     opacity: 1;
+    //     top: 400px;
+    //     left: calc(75% - 50px);
+    // }
+    97% {
+        opacity: 1;
+        top: 800px;
+        left: calc(65% + 0px);
+    }
+    100% {
+        opacity: 0;
+        top: 800px;
+        left: calc(65% + 0px);
+    }
+}
+
+@keyframes falling9 {
+    0% {
+        opacity: 0; 
+        top: 40px;
+        left: 85%;
+    }
+    3% {
+        opacity: 1;
+        top: 40px;
+        left: 85%;
+    }
+    // 45% {
+    //     opacity: 1;
+    //     top: 400px;
+    //     left: calc(70% - 50px);
+    // }
+    97% {
+        opacity: 1;
+        top: 800px;
+        left: calc(85% - 250px);
+    }
+    100% {
+        opacity: 0;
+        top: 800px;
+        left: calc(85% - 250px);
+    }
+}

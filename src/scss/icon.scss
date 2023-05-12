@@ -1,0 +1,155 @@
+.icon-diamond {
+    position: relative;
+    display: block;
+    width: 37px;
+    height: 61px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    &.green {
+        background-image: url(../assets/green-diamond.png);
+    }
+    &.blue {
+        background-image: url(../assets/blue-diamond.png);
+    }
+    &.red {
+        background-image: url(../assets/red-diamond.png);
+    }
+    &.yellow {
+        background-image: url(../assets/yellow-diamond.png);
+    }
+}
+
+.circle-icon {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    &.icon-staking {
+        background-image: url(../assets/icon/staking.png);
+    }
+    &.icon-percentage {
+        background-image: url(../assets/icon/percentage.png);
+    }
+    &.icon-nft {
+        background-image: url(../assets/icon/nft.png);
+    }
+    &.icon-required {
+        background-image: url(../assets/img/required.png);
+    }
+    &.icon-level-up {
+        background-image: url(../assets/img/level-up.png);
+    }
+    &.icon-spirit-form {
+        background-image: url(../assets/img/spirit-form.png);
+    }
+}
+
+.circle-item {
+    width: 95px;
+    height: 95px;
+    border-radius: 95px;
+    font-family: 'Berkshire Swash';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.bg-red {
+        background: #EB4D9A;
+        color: #FFFFFF;
+    }
+}
+
+.icon-nav-bars {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: $color-main;
+    transition: height 0.6s;
+    &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: -13px;
+        width: 40px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: $color-main;
+        transition: transform 0.6s;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 13px;
+        width: 40px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: $color-main;
+        transition: transform 0.6s;
+    }
+}
+
+.open {
+    .icon-nav-bars {
+        position: relative;
+        display: block;
+        width: 40px;
+        height: 0px;
+        border-radius: 5px;
+        background-color: $color-main;
+        transition: height 0.6s;
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            top: -13px;
+            width: 40px;
+            height: 5px;
+            border-radius: 5px;
+            background-color: $color-main;
+            -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+            transform: rotate(-45deg) translate(-8px, 6px);
+            transition: transform 0.6s;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            top: 13px;
+            width: 40px;
+            height: 5px;
+            border-radius: 5px;
+            background-color: $color-main;
+            -webkit-transform: rotate(45deg) translate(-12px, -10px);
+            transform: rotate(45deg) translate(-12px, -10px);
+            transition: transform 0.6s;
+        }
+    }
+}
+
+.social-icon {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    &.twitter {
+        background-image: url(../assets/icon/twitter.png);
+    }
+    &.discord {
+        background-image: url(../assets/icon/discord.png);
+    }
+}
